@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Friends Computer Manufacturers</title>
+    <style>
+        body {
+            background-color: rgb(196, 231, 228);
+            font-family: Arial, sans-serif;
+        }
+        
+        #top {
+            background-color: rgb(169, 211, 234);
+            padding: 1%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        
+        #logo {
+            position: absolute;
+            left: 10px;
+            top: 10px;
+        }
+        
+        nav {
+            background-color: rgb(86, 90, 85);
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+        }
+        
+        nav a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+            background-color: rgb(86, 90, 85);
+            border-radius: 5px;
+            border-style: dotted;
+        }
+        
+        nav a:hover {
+            background-color: rgb(66, 70, 65);
+        }
+        
+        main {
+            text-align: center;
+            margin: 20px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .manufacturers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .companies {
+            background-color: rgb(66, 70, 65);
+            margin: 10px;
+            border-radius: 10px;
+            border-style: dashed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            width: 120px;
+        }
+        
+        .companies img {
+            width: 100px;
+            height: auto;
+        }
+        
+        .companies a {
+            color: white;
+            margin-top: 10px;
+            text-decoration: none;
+        }
+        
+        .companies a:hover {
+            color: rgb(194, 95, 95);
+        }
+        
+        footer {
+            background-color: rgb(86, 90, 85);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+        <header>
+            <img id="logo" src="logo.jpg" alt="logo" width="100" height="100">
+            <h1>Friends Computer Manufacturers</h1>
+        </header>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="myown.html">About Us</a>
+        <a href="https://forms.gle/MFKWBtAg27WimDCA7">Products</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <h2>Welcome to Friends Computer Manufacturers</h2>
+        <p>We are leading manufacturers of high-quality computers.</p>
+    </main>
+
+    <h2 align="center">Featured computer manufacturers</h2>
+
+    <div class="manufacturers">
+        <div class="companies">
+            <img src="apple.png" alt="Apple">
+            <a href="apple.html">Apple</a>
+        </div>
+        <div class="companies">
+            <img src="dell.png" alt="Dell">
+            <a href="dell.html">Dell</a>
+        </div>
+        <div class="companies">
+            <img src="hp.png" alt="HP">
+            <a href="hp.html">HP (Hewlett-Packard)</a>
+        </div>
+        <div class="companies">
+            <img src="lenovo.svg" alt="Lenovo">
+            <a href="lenovo.html">Lenovo</a>
+        </div>
+        <div class="companies">
+            <img src="asus.png" alt="Asus">
+            <a href="asus.html">Asus</a>
+        </div>
+        <div class="companies">
+            <img src="acer.png" alt="Acer">
+            <a href="acer.html">Acer</a>
+        </div>
+        <div class="companies">
+            <img src="IBM.svg" alt="IBM">
+            <a href="ibm.html">IBM</a>
+        </div>
+        <div class="companies">
+            <img src="msi.png" alt="MSI">
+            <a href="MSI.html">MSI</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Friends Computer Manufacturers</p>
+    </footer>
+</body>
+
+</html>
